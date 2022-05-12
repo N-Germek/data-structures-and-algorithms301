@@ -9,7 +9,11 @@ Write a function named raisedToTheThird that takes in an array of numbers and re
 ------------------------------------------------------------------------------------------------ */
 
 const raisedToTheThird = (arr) => {
-  // Solution code here...
+  const solution = [];
+  arr.forEach(num => {
+    solution.push(Math.pow(num, 3));
+  });
+  return solution;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -18,9 +22,7 @@ CHALLENGE 2
 Write a function named addOne that, given an array of numbers, uses map to return a new array with each value simply incremented by 1. 
 ------------------------------------------------------------------------------------------------ */
 
-const addOne = (arr) => {
-  // Solution code here...
-};
+const addOne = (arr) => arr.map(num => num + 1);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -28,9 +30,7 @@ CHALLENGE 3
 Write a function named addQuestion that, given an array of strings, uses map to return a new array containing each string followed by a question mark character.
 ------------------------------------------------------------------------------------------------ */
 
-const addQuestion = (arr) => {
-  // Solution code here...
-};
+const addQuestion = (arr) => arr.map(string => string + `?`);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -43,8 +43,11 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 ------------------------------------------------------------------------------------------------ */
 
 const forLoopTwoToThe = (arr) => {
-  // Solution code here...
-};
+  // TODO: create new array for solution
+  // TODO: create for loop to go over array
+  // TODO: create function for raising to the power of 2
+  // TODO: create function for results being decimals if negative integer is results
+  // TODO: return results of for loop into new array
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
