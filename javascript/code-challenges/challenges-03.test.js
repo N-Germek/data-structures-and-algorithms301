@@ -1,5 +1,7 @@
 'use strict';
 
+const { children } = require("cheerio/lib/api/traversing");
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
 
@@ -171,7 +173,9 @@ const characters = [
 ];
 
 const getCharactersWithoutChildren = (arr) => {
-  // Solution code here...
+  // let solution = arr.filter((children => (children) === '').push(characters.data.name));
+
+  // return solution;
 };
 
 /* ------------------------------------------------------------------------------------------------
