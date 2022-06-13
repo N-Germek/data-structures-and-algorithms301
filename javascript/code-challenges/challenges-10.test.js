@@ -26,7 +26,7 @@ For example:
 return: 23
 ------------------------------------------------------------------------------------------------ */
 const findMax = (matrix) => {
-  // matrix is an array within an array
+// matrix is an array within an array
   let solution = 0;
   matrix.forEach(arr => {
     arr.forEach(num => {
@@ -62,6 +62,7 @@ const totalSum = (matrix) => {
   return solution;
 };
 
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
@@ -85,7 +86,7 @@ const alkiBeach = [33, 31, 147, 130, 27, 93, 38, 126, 141, 63, 46, 17];
 const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
-  //giving location to put solution
+//giving location to put solution
   let solution = [];
   //running through length of stores array of cookie stores
   for (let i = 0; i < stores[0].length; i++) {
@@ -98,9 +99,8 @@ const grandTotal = (stores) => {
     solution.push(hourlyTotal);
   }
   return solution;
+
 };
-
-
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -113,7 +113,6 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 ------------------------------------------------------------------------------------------------ */
 
 const salesData = (hours, data) => {
-
   const solution = [];
 
   data.forEach((value, idx) => {
